@@ -1,0 +1,189 @@
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  background: unset;
+}
+.nav {
+  display: flex;
+  gap: 30px;
+  border-bottom: 2px solid #323232;
+}
+.nav_link {
+  text-decoration: none;
+  color: #323232;
+}
+li {
+  list-style: none;
+}
+ul {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.intro__box{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 350px);
+  margin-top: 20px;
+  gap: 20px;
+}
+.intro__card{
+  background-color: #E1E1E1;
+  min-height: 220px;
+   border-radius: 10px;
+   box-shadow: 7px 7px 7px 7px  rgba(132, 132, 132, 0.3);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+.card_2 {
+  min-height: 294px;
+  grid-row: span 2;
+  padding: 30px ;
+ 
+}
+button{
+  background: unset;
+  border: none;
+}
+.card_1 img{
+  width: 120px;
+  height: 140px;
+  display: flex;  
+}
+.card_1{
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+} 
+.intro__card__list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 35px;
+
+}
+.chegirma{
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  background-color: rgba(50, 50, 50, 1);
+  color: #fff;
+  width: 90px;
+  height: 40px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+.card_2 img{
+  width: 280px;
+  height: 190px;
+}
+.card_2{
+  display: flex;
+  position: relative;
+  padding: 20px;
+}
+.card_3 img{
+  width: 120px;
+  height: 140px;
+  display: flex;
+
+}
+.card_3{
+  position: relative;
+  display: flex;  
+  padding: 25px;
+}
+.intro__box{
+  margin-top: 20px;
+
+}
+.About__title{
+  text-align: center;
+  margin-top: 60px;
+  font-family: "Montserrat";
+font-size: 30px;
+font-weight: 400;
+}
+.about__box{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(4,1fr);
+
+border-top: 2px solid #323232;
+
+}
+.about__card{
+  background-color: #E1E1E1;
+  min-height: 220px;
+   border-radius: 10px;
+   box-shadow: 7px 7px 7px 7px  rgba(132, 132, 132, 0.3);
+   grid-column: span 1;
+   width: 265px;
+   height: 345px;
+  flex-direction: column;
+  margin-top: 20px;
+
+}
+.about__card img{
+  margin-bottom: 20px;
+  width: 120px;
+    height: 140px;
+  margin: auto;
+  }
+.about_list{
+  text-align: center;
+}
+.about__card
+{     display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column; /* Elementlarni ustma-ust joylashtirish */
+      text-align: center;
+    }
+    .about__info{
+      font-family: "Montserrat";
+      font-size: 30px;
+      font-weight: 400;
+      text-align: center;
+    }
+.border{
+  border-top: 2px solid #323232;
+}
+.news__box{
+  display: flex;
+  gap: 30px;
+  margin-top: 15px;
+}
+.news_card img{
+  width: 500px;
+}
+.footer{
+  background-color: rgba(50, 50, 50, 1);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px;
+  margin-top: 60px;
+}
+.footer__tile{
+  font-family: "  ";
+font-size: 32px;
+font-weight: 700;
+line-height: 23px;
+text-align: left;
+color: #fff;
+}
+.footer__list{
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 400;
+  color:#B2B2B2;
+}
